@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blacio.ifyoudare.WorldDareActivity"
+    android:background="@android:color/black"
+    android:layout_margin="@dimen/padding_layout_dim"
+    android:weightSum="6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/five_padding"
+        android:weightSum="4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="WORLD DARE\nCONTEST"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="@dimen/user_data_text"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeWorldDare"
+        android:text="TIME"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/user_data_title"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/five_padding"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/user_data_text"
+        android:text="THIS IS THE CHALLENGE! THIS IS THE CHALLENGE! THIS IS THE CHALLENGE!"
+        android:gravity="center"
+        android:id="@+id/worldDare"
+        android:layout_weight="3"
+        android:layout_margin="@dimen/five_padding"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_margin="@dimen/five_padding">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/participateButton"
+            android:background="@drawable/button_shape"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/user_data_title"
+            android:layout_margin="@dimen/padding_layout_dim"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="4"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="VOTE"
+            android:onClick="onVote"
+            android:id="@+id/voteButton"
+            android:textSize="@dimen/user_data_title"
+            android:background="@drawable/button_shape"
+            android:textColor="@android:color/black"
+            android:layout_margin="@dimen/padding_layout_dim"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="4"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="THE TOP"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/user_data_title"
+            android:onClick="onWorld"
+            android:id="@+id/worldTopButton"
+            android:layout_margin="@dimen/padding_layout_dim"
+            android:background="@drawable/button_shape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="4"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

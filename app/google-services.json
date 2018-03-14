@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "523108796309",
+    "firebase_url": "https://if-you-dare-b3f75.firebaseio.com",
+    "project_id": "if-you-dare-b3f75",
+    "storage_bucket": "if-you-dare-b3f75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523108796309:android:689001deb19e77d8",
+        "android_client_info": {
+          "package_name": "com.blacio.ifyoudaree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523108796309-ctvsn3jiacs8dhghomj8qdj5tp6ianjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANNxwBVh6QXkg26VfxWtzs6f_6UqvzzQ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">If You Dare !</string>
+    <string name="facebook_app_id">***</string>
+    <string name="fb_login_protocol_scheme">***</string>
+    <string name="title_activity_user_data">UserData</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="dialog_menu">You have to be connected to internet !!!</string>
+    <string name="title_activity_sent">SentActivity</string>
+    <string name="title_activity_received">ReceivedActivity</string>
+    <string name="title_activity_submit">SubmitActivity</string>
+    <string name="submit1">Submit your score for your friends to see your progress and to appear in the world top</string>
+    <string name="submit2">Submitting is not permanent! You can submit your score whenever you want !</string>
+    <string name="title_activity_top">TopActivity</string>
+    <string name="title_activity_world_dare">WorldDareActivity</string>
+    <string name="title_activity_vote">VoteActivity</string>
+    <string name="title_activity_world_top">WorldTopActivity</string>
+    <string name="title_activity_developer">DeveloperActivity</string>
+    <string name="title_activity_instruction">InstructionActivity</string>
+    <string name="instr_points">Well done challenge: <b>15 points</b>\nRejected challenge: <b>-5 points</b>\nSent challenge: <b>1 point</b></string>
+    <string name="instr_world_dare"><b>WORLD CHALLENGE</b> is a contest where everybody who participates has to do a given challenge. If you participate, you will be able to vote for your favourite photos(only one time each), including yourself. At the end of the contest, every participant will receive a bonus, equal to the number of votes he got. Furthermore, the first three places will receive more bonus points depending on the number of competitors.</string>
+    <string name="instr_color">Every 100 points will bring you 1 level point\nYour app\'s color will change based on your level points (every 30 levels)</string>
+    <string name="notTop">You are not in the Top 100</string>
+    <string name="do_not">Neither text messages, nor images that promote inappropriate things are strictly prohibited and NOT accepted. You have to agree that you will NOT USE any of the following content:\n-<b>sexual explicit content</b>\n-<b>child endangerment</b>\n-<b>violence, hate or harassment</b>\n-<b>sensitive events</b>\n-<b>gambling</b>\n-<b>any illegal activities</b></string>
+    <string name="sureDelete">Are you sure you want to delete your account ?</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:IfYouDare="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.FriendsActivity">
+
+    <item
+        android:id="@+id/profile_menu"
+        android:title="My Profile"
+        IfYouDare:showAsAction="always" />
+
+    <item
+        android:id="@+id/friends_menu"
+        android:title="Friends"
+        IfYouDare:showAsAction="always" />
+    <item
+        android:id="@+id/dares_sent_menu"
+        android:title="Send Challenges"
+        IfYouDare:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/dares_received_menu"
+        android:title="Received Challenges"
+        IfYouDare:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/top_scores"
+        android:title="Top Scores"
+        IfYouDare:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/world_contest"
+        android:title="World Challenge"
+        IfYouDare:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/info_sets"
+        android:title="Info and Settings"
+        IfYouDare:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/sign_out"
+        android:title="Sign Out"
+        IfYouDare:showAsAction="never"
+        />
+</menu>

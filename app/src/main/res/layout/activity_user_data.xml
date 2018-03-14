@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/padding_layout_dim"
+    android:background="@android:color/black"
+    tools:context="com.blacio.ifyoudare.UserData">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:weightSum="7"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:id="@+id/photoUser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minWidth="@dimen/w_image"
+            android:minHeight="@dimen/h_image"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher"
+            android:padding="@dimen/five_padding"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|end"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/nameUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_margin="@dimen/seven_pading"
+                android:textSize="@dimen/user_data_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ageUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textSize="@dimen/user_data_name"
+                android:textStyle="italic"
+                android:layout_marginRight="@dimen/five_padding"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/cityUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginRight="@dimen/five_padding"
+        android:textSize="@dimen/user_data_name"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/sentUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/seven_pading"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/user_data_text"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/receivedUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/seven_pading"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/user_data_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/levelUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/seven_pading"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/user_data_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scoreUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/seven_pading"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/user_data_text"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+</FrameLayout>

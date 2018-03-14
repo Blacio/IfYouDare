@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearDialog"
+    android:weightSum="5"
+    android:background="@color/colorAccent"
+    android:layout_margin="@dimen/seven_pading">
+
+    <TextView
+        android:id="@+id/nameDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/five_padding"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/black"
+        android:text="Name and Surname"
+        android:textSize="@dimen/user_data_title"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_margin="@dimen/padding_layout_dim"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/picDialog"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:padding="@dimen/padding_layout_dim"
+            android:layout_weight="1"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/padding_layout_dim"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/receivedDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="@dimen/user_data_text"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:padding="@dimen/padding_layout_dim"
+            android:text="Dares Received:"
+            android:maxLines="2"/>
+
+        <TextView
+            android:id="@+id/sentDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="@dimen/user_data_text"
+            android:fontFamily="casual"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:padding="@dimen/padding_layout_dim"
+            android:text="Dares Sent:"
+            android:maxLines="2"/>
+
+        <TextView
+            android:id="@+id/levelDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="@dimen/user_data_text"
+            android:textColor="@android:color/black"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:padding="@dimen/padding_layout_dim"
+            android:text="Level"
+            android:maxLines="2"/>
+    </LinearLayout>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/dareButDialog"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/seven_pading"
+            android:text="CHALLENGE!!!"
+            android:textSize="@dimen/user_data_text"
+            android:textColor="@android:color/black"
+            android:background="@drawable/button_shape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="4"
+            android:shadowDy="0"
+            android:shadowRadius="5"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pg_bar"/>
+</FrameLayout>

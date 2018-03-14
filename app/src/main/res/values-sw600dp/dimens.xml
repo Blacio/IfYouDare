@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="title_text">50sp</dimen>
+
+    <dimen name="instr_dimen">24sp</dimen>
+    <dimen name="instr_dimentwo">28sp</dimen>
+
+
+    <dimen name="user_data_text">37sp</dimen>
+    <dimen name="user_data_name">42sp</dimen>
+    <dimen name="user_data_title">47sp</dimen>
+
+    <dimen name="padding_layout_dim">7dp</dimen>
+    <dimen name="five_padding">8dp</dimen>
+    <dimen name="seven_pading">10dp</dimen>
+
+    <dimen name="w_image">300dp</dimen>
+    <dimen name="h_image">300dp</dimen>
+
+</resources>

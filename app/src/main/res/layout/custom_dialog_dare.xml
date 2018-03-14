@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:id="@+id/linearDialog"
+    android:background="@color/colorAccent"
+    android:layout_margin="@dimen/seven_pading">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/five_padding"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/user_data_title"
+        android:padding="@dimen/five_padding"
+        android:text="TYPE YOUR DARE !!!"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputDare"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="5"
+        android:maxLines="5"
+        android:textColor="@android:color/black"
+        android:maxLength="100"
+        android:padding="@dimen/five_padding"
+        android:layout_weight="3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/butonDare"
+        android:text="SEND!!!"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/user_data_text"
+        android:padding="@dimen/seven_pading"
+        android:layout_weight="1"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="4"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+</LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progras_bar_dialog"/>
+
+</FrameLayout>
